@@ -1,13 +1,7 @@
-# co72e499baf5f48346e5975cf
+# Restaurant ordering app
 
-Quick start:
+this project was done as part of the scrimba frontend development course, you can check the wesbite by [Clicking here](https://rawi2115.github.io/Restaurant-ordering/)
 
-```
-$ npm install
-$ npm start
-````
-
-Head over to https://vitejs.dev/ to learn more about using vite
 ## About Scrimba
 
 At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
