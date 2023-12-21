@@ -1,0 +1,138 @@
+html,body {
+    margin: 0;
+} 
+body{
+    min-height: 100vh;
+    font-family: 'Roboto Flex', sans-serif;
+}
+/* *{
+    outline: 1px solid;
+} */
+header{
+    height:127px;
+    background-image: url('photo-1616645500344-209060c84970.jpeg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 400px auto;
+}
+header h3 {
+    margin: 0;
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+header{
+    position: relative;
+}
+p,h3 {
+    padding: 0;
+    margin: 10px 0;
+}
+img{
+    max-width: 80px;
+    max-height: 80px;
+    
+}
+.item {
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    border-bottom: 1px solid #D7D7D7;
+}
+.menu {
+    padding:20px;
+}
+.ingredients {
+    font-size: 12px;
+    color: gray;
+}
+.wrapper h3 {
+    text-align: center;
+}
+.wrapper {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper p {
+    display:flex ;
+    justify-content: space-between;
+}
+.checkout-list {
+    border-bottom: 1px solid black;
+}
+.wrapper button {
+    align-self: center;
+    color: white;
+    border: 0;
+    padding: 8px 0;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 15px;
+}
+button {
+    background-color: #0000F6;
+    border-radius: 3.5px;
+}
+i {
+    cursor: pointer;
+}
+button:active , i:active {
+    opacity: 60%;
+}
+.checkout {
+    display: none;
+    text-align: center;
+    padding: 15px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width:300px;
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom:0;
+    right: 0;
+    margin: auto;
+    max-height: 300px;
+    background-color: white;
+    justify-content: space-evenly;
+    padding: 6px;
+    display: none;
+}
+form button {
+    width: 260px;
+    color: white;
+    border: 0;
+    padding: 8px 0;
+    width:280px;
+    cursor: pointer;
+}
+form input {
+    padding:8px;
+    width:260px
+}
+.message {
+    background-color:#ECFDF5;
+    color: #065F46;
+    font-size: 15px;
+    padding: 15px;
+    margin: 0;
+}
+.main-container {
+    max-width: 380px;
+    max-height: 768px;
+    margin: 0 auto;
+}
